@@ -10,7 +10,7 @@ def myCount():
 myCount()
 
 
-accessing a list element using a for loop
+#accessing a list element using a for loop
 def myExample():
     languages = ["python", "javascript", "java", "c++", "c#"]
     for language in languages:
@@ -24,7 +24,7 @@ def moreExample(num):
 moreExample(3)
 moreExample(7)
 
-working with if condition with list in the function
+# working with if condition with list in the function
 def myLang():
     languages = ["javascript","python","java", "c++", "c#"]
     for language in languages:
@@ -44,7 +44,7 @@ def odd(num):
             print(number)
 odd(10)
 
-power
+# power
 def power(energy):
     powerEnergy = energy ** 2
     if powerEnergy % 2 == 0:

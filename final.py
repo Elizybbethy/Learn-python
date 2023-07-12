@@ -20,7 +20,9 @@ Its prompts the user to input the student's class
 Then print out the school fees for that student basing on the input class
 '''
 def schoolFees():
-    studentclass = "Baby Class " + "Middle Class " + "Top class"
+    # studentclass = "Baby Class " + "Middle Class " + "Top class"
+    studentclass = ["Baby", "Middle", "Top", "P.1"]
+
     print("                              ")
     print(studentclass)
     registeringClass = input("Enter the student class: ")
@@ -29,11 +31,11 @@ def schoolFees():
     middleclass = 800000
     topclass = 600000
     # print(babyclass, middleclass, topclass)
-    if registeringClass == "Baby Class":
+    if registeringClass == "Baby":
         print("Baby class fees: ", babyclass)
-    elif registeringClass == "Middle Class":
+    elif registeringClass == "Middle":
         print("Middle Class fees: ", middleclass)
-    elif registeringClass == "Top Class":
+    elif registeringClass == "Top":
         print("Top class fees: ", topclass)
     else:
         print("Please enter the student's class or check the spelling")
