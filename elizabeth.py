@@ -13,6 +13,8 @@ class Color:
 print(Color.name)
 
 color2 = Color()
+color2.name = "red"  
+color2 = Color()
 color2.name = "red"
 color2.type = "primary"
 color2.code = "#FF0000"
